@@ -1,0 +1,73 @@
+"npm init" for adding package.json to server folder
+
+Server Creation- Usng express
+------------------------------
+Install express
+    -npm i express
+
+1. Import Express
+
+2. Create an app using express
+
+3. Create port number
+
+4. Create Requests according to our project
+
+nodemon Server
+---------------
+- npm i -g nodemon
+
+User Authentication(In Express)
+--------------------------------
+    JWT(Json Web Token) Token
+    --------------------------
+    jsonwebtoken  -library
+    sign()        -method used for generate Token
+    verify()      -methos to verify jwt tokens
+
+    Middlewares
+    ------------
+
+    -Middlewares have the capacity to control server Requests
+    - It's a function with 3 arguments (request,response,next)
+
+    -Two types
+
+        1.Application Specific Middlewares
+        2.Router Specific Middlewares
+        
+    Solving Run-Time errors in Json
+    --------------------------------
+    try catch
+
+    try{
+        Error causing code
+    }
+    catch{
+        Solution
+    }
+
+
+
+MongoDB
+-------
+
+-mongodb server
+-shell commands in mongodb
+
+    - show dbs                    : To see the databases
+    - use db_name                 : Open databases
+    - show collections            : View collections inside databases
+    - db.collecton_name.find()    : To view datas inside collections
+    - db.collecton_name.findOne({unique data to identify}) : To view any single data inside collections
+    - db.collecton_name.insertOne({data}) : To insert new data
+
+    - db.collecton_name.findOne({condition}) : Find Single Data
+    - db.collecton_name.find({condition}) : Find All datas
+
+    - db.collecton_name.deleteOne({data}) : Delete single data
+            - delete count=number
+            - delete count=0   If nothing deleted
+
+    -db.collecton_name.updateOne({data to be update},{new data})
+    
