@@ -16,7 +16,7 @@ const { json } = require('express')
 const app = express()
 
 // Connect frontend
-app.use(cors({origin:'http://localhost:4200'}))
+app.use(cors({origin:'https://paymate.netlify.app'}))
 
 // To convert json datas
 app.use(express.json())
