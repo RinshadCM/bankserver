@@ -71,3 +71,25 @@ MongoDB
 
     -db.collecton_name.updateOne({data to be update},{new data})
     
+Server MongoDB Integration
+---------------------------
+-mongoose :- Library used to integrate db and server
+        npm i mongoose
+
+STEPS
+-----
+
+1. Import mongoose 
+
+2. State connection string via mongoose
+
+3. Define a bank database Model
+
+4.Export the schema to use in another files
+
+ANGULAR SERVER INTEGRATION/FRONTEND-BACKEND INTEGRATION
+--------------------------------------------------------
+Angular and node integration model-CORS (Cross origin resource sharing)
+4200-3000
+
+    npm-i-cors
