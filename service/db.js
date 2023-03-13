@@ -6,7 +6,7 @@ const mongoose=require('mongoose')
 
 // 2. State connection string via mongoose
 mongoose.set("strictQuery", false);
-mongoose.connect('mongodb+srv://rinshadcm:hellohai@cluster0.qugovtm.mongodb.net/?retryWrites=true&w=majority',{useNewUrlParser:true})
+mongoose.connect('mongodb+srv://rinshadcm:hellohai@cluster0.qugovtm.mongodb.net/test',{useNewUrlParser:true})
 
 // 3. Define a bank database Model
 const User=mongoose.model('User',{
